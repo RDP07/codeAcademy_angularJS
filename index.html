@@ -22,7 +22,7 @@
 
         <div ng-repeat="product in products" class="col-md-6">
           <div class="thumbnail">
-            <img src="img/the-book-of-trees.jpg">
+            <img src="{{ product.cover }}">
             <p class="title"> {{ product.name | uppercase }} </p>
             <p class="price"> {{ product.price | currency }} </p>
             <p class="date">  {{ product.pubdate | date }} </p>
