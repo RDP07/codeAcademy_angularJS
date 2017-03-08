@@ -13,6 +13,18 @@ app.controller('MainController', ['$scope', function($scope) {
                       	price: 8,
                       	pubdate: new Date('2013', '08', '01'),
                       	cover: 'img/program-or-be-programmed.jpg'
+                      },
+                      {
+                      	name: 'HTML & CSS: Design and Build Websites',
+                      	price: 8,
+                      	pubdate: new Date('2011','11', '08'),
+                      	cover: 'img/html-and-css.jpg'
+                      },
+                      {
+                      	name: 'JavaScript & JQuery: Interactive Front-End Web Development',
+                      	price: 28,
+                      	pubdate: new Date('2014', '06', '30'),
+                      	cover: "img/javascript-and-jquery.jpg"
                       }
                     ];
 }]);
